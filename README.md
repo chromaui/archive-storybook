@@ -1,19 +1,17 @@
 ## @storybook/archive-storybook
 
-FIXME: Add description of the project
+A Storybook for rendering webpage archives
 
 ## Getting Started
 
-FIXME: Add getting started steps
+See [the documentation for `@chromaui/test-archiver`](https://github.com/chromaui/test-archiver/blob/main/Documentation.md)
 
 ## Contributing
 
 We welcome contributions to Storybook!
 
 - 📥 Pull requests and 🌟 Stars are always welcome.
-- Read our [contributing guide](CONTRIBUTING.md) to get started,
-  or find us on [Discord](https://discord.gg/storybook), we will take the time to guide you
 
 ## License
 
-[MIT](https://github.com/storybookjs/@chromaui/archive-storybook/blob/main/LICENSE)
+[MIT](https://github.com/chromaui/archive-storybook/blob/main/LICENSE)

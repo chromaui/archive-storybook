@@ -1,12 +1,12 @@
 {
-  "name": "package-name",
+  "name": "@chromaui/archive-storybook",
   "version": "0.0.0",
-  "description": "package-description",
+  "description": "A Storybook for rendering webpage archives",
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/package-base-name"
+    "url": "https://github.com/storybookjs/@chromaui/archive-storybook"
   },
-  "author": "package-author",
+  "author": "Chromatic <tom@chromatic.com>",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -34,8 +34,6 @@
     "release": "yarn build && auto shipit",
     "lint": "eslint --cache --cache-location=.cache/eslint --ext .js,.jsx,.html,.ts,.tsx,.mjs",
     "prettier": "prettier",
-    "prerelease": "node scripts/prepublish-checks.js",
-    "postinstall": "node scripts/welcome-message.js",
     "prepare": "husky install"
   },
   "devDependencies": {

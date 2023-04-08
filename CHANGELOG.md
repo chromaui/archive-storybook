@@ -1,3 +1,15 @@
+# v0.0.2 (Sat Apr 08 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Improve bins and publish config ([@tmeasday](https://github.com/tmeasday))
+
+#### Authors: 1
+
+- Tom Coleman ([@tmeasday](https://github.com/tmeasday))
+
+---
+
 # v0.0.1 (Sat Apr 08 2023)
 
 #### ⚠️ Pushed to `main`

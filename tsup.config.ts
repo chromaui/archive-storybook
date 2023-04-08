@@ -1,7 +1,7 @@
 import { defineConfig } from 'tsup';
 
 export default defineConfig((options) => ({
-  entry: ['src/index.ts'],
+  entry: ['src/preset.ts', 'src/preview.ts'],
   splitting: false,
   minify: !options.watch,
   format: ['cjs', 'esm'],
@@ -11,7 +11,10 @@ export default defineConfig((options) => ({
   treeshake: true,
   sourcemap: true,
   clean: true,
-  platform: 'browser',
+  platform: 'node',
+  // Trying to avoid bundling anything
+  bundle: false,
+  external: ['@storybook/types'],
   esbuildOptions(options) {
     options.conditions = ['module'];
   },

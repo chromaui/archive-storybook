@@ -1,3 +1,15 @@
+# v0.0.4 (Sat Apr 08 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Allow setting CHROMATIC_ARCHIVE_LOCATION ([@tmeasday](https://github.com/tmeasday))
+
+#### Authors: 1
+
+- Tom Coleman ([@tmeasday](https://github.com/tmeasday))
+
+---
+
 # v0.0.3 (Sat Apr 08 2023)
 
 #### ⚠️ Pushed to `main`

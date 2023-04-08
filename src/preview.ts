@@ -21,8 +21,8 @@ const renderToCanvas: RenderToCanvas<RRWebFramework> = async (context, element) 
   iframe.setAttribute('style', 'border: 0; width: 100vw; height: 100vh;');
   element.appendChild(iframe);
 
-  // rebuild is typed incorreclty, cache and mirror are optional
-  await rebuild(snapshot, { doc: iframe.contentDocument, cache: null, mirror: null });
+  // @ts-expect-error rebuild is typed incorreclty, cache and mirror are optional
+  await rebuild(snapshot, { doc: iframe.contentDocument });
 
   context.showMain();
   return () => {

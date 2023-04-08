@@ -18,6 +18,10 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "bin": {
+    "archive-storybook": "dist/bin/archive-storybook.js",
+    "build-archive-storybook": "dist/bin/build-archive-storybook.js"
+  },
   "files": [
     "dist/**/*",
     "README.md",
@@ -81,6 +85,7 @@
   },
   "dependencies": {
     "@chromaui/rrweb-snapshot": "2.0.0-alpha.7-noAbsolute.2",
-    "@storybook/csf": "^0.1.0"
+    "@storybook/csf": "^0.1.0",
+    "@storybook/server-webpack5": "^7.0.2"
   }
 }

@@ -1,7 +1,12 @@
 import { defineConfig } from 'tsup';
 
 export default defineConfig((options) => ({
-  entry: ['src/preset.ts', 'src/preview.ts'],
+  entry: [
+    'src/preset.ts',
+    'src/preview.ts',
+    'src/bin/archive-storybook.ts',
+    'src/bin/build-archive-storybook.ts',
+  ],
   splitting: false,
   minify: !options.watch,
   format: ['cjs', 'esm'],

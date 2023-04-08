@@ -1,3 +1,15 @@
+# v0.0.3 (Sat Apr 08 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Don't pass null to rrweb rebuild ([@tmeasday](https://github.com/tmeasday))
+
+#### Authors: 1
+
+- Tom Coleman ([@tmeasday](https://github.com/tmeasday))
+
+---
+
 # v0.0.2 (Sat Apr 08 2023)
 
 #### ⚠️ Pushed to `main`

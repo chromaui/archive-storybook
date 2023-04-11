@@ -1,6 +1,6 @@
 const { CHROMATIC_ARCHIVE_LOCATION = 'test-archives/latest' } = process.env;
 
-const ARCHIVES_DIR = '../../../../${CHROMATIC_ARCHIVE_LOCATION}';
+const ARCHIVES_DIR = `../../../../${CHROMATIC_ARCHIVE_LOCATION}`;
 
 /** @type { import('@storybook/server-webpack5').StorybookConfig } */
 const config = {

@@ -1,5 +1,6 @@
-import { rebuild } from '@chromaui/rrweb-snapshot';
 import type { RenderToCanvas, WebRenderer } from '@storybook/types';
+import { rebuild } from '@chromaui/rrweb-snapshot';
+import debounce from 'lodash.debounce';
 
 const pageUrl = new URL(window.location.href);
 pageUrl.pathname = '';
@@ -17,7 +18,10 @@ const iframeStyle = 'border: 0; min-width: 100vw; min-height: 100vh;';
 // Update the style attribute to set the width/height correctly
 function updateDimensions(iframe: HTMLIFrameElement) {
   const { scrollWidth, scrollHeight } = iframe.contentDocument.body;
-  iframe.setAttribute('style', `${iframeStyle}; width: ${scrollWidth}; height: ${scrollHeight};`);
+  iframe.setAttribute(
+    'style',
+    `${iframeStyle}; width: ${scrollWidth}px; height: ${scrollHeight}px;`
+  );
 }
 
 const renderToCanvas: RenderToCanvas<RRWebFramework> = async (context, element) => {
@@ -36,7 +40,10 @@ const renderToCanvas: RenderToCanvas<RRWebFramework> = async (context, element) 
   setTimeout(() => updateDimensions(iframe), 100);
 
   // Also update the dimension every time the window changes size
-  window.addEventListener('resize', () => updateDimensions(iframe));
+  window.addEventListener(
+    'resize',
+    debounce(() => updateDimensions(iframe), 100)
+  );
 
   context.showMain();
   return () => {

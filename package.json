@@ -1,6 +1,6 @@
 {
   "name": "@chromaui/archive-storybook",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Storybook for rendering webpage archives",
   "repository": {
     "type": "git",

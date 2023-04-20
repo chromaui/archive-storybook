@@ -1,3 +1,15 @@
+# v0.0.6 (Thu Apr 20 2023)
+
+#### 🐛 Bug Fix
+
+- Try to ensure the iframe is the right size for the internal content [#1](https://github.com/chromaui/archive-storybook/pull/1) ([@tmeasday](https://github.com/tmeasday))
+
+#### Authors: 1
+
+- Tom Coleman ([@tmeasday](https://github.com/tmeasday))
+
+---
+
 # v0.0.5 (Tue Apr 11 2023)
 
 #### ⚠️ Pushed to `main`

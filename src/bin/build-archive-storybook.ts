@@ -5,4 +5,4 @@ import { execSync } from 'child_process';
 // TODO -- is there a better way to do this?
 const configDir = 'node_modules/@chromaui/archive-storybook/config';
 
-execSync(`npx @storybook/cli build -c ${configDir}`, { stdio: 'inherit' });
+execSync(`npx @storybook/cli@latest build -c ${configDir}`, { stdio: 'inherit' });

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 import { execSync } from 'child_process';
+import { resolve, dirname } from 'path';
 
-// TODO -- is there a better way to do this?
 const configDir = 'node_modules/@chromaui/archive-storybook/config';
-
-execSync(`npx @storybook/cli@latest build -c ${configDir}`, { stdio: 'inherit' });
+const binPath = resolve(dirname(require.resolve('@storybook/cli/package.json')), './bin/index.js');
+execSync(`npx ${binPath} build -c ${configDir}`, { stdio: 'inherit' });

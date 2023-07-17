@@ -12,4 +12,4 @@ const config = {
   },
   staticDirs: [`${ARCHIVES_DIR}/archive`],
 };
-export default config;
+module.exports = config;

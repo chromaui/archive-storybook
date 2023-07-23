@@ -1,3 +1,15 @@
+# v0.0.7 (Sun Jul 23 2023)
+
+#### 🐛 Bug Fix
+
+- Update npx commands to ensure we use the latest [#2](https://github.com/chromaui/archive-storybook/pull/2) ([@tmeasday](https://github.com/tmeasday))
+
+#### Authors: 1
+
+- Tom Coleman ([@tmeasday](https://github.com/tmeasday))
+
+---
+
 # v0.0.6 (Thu Apr 20 2023)
 
 #### 🐛 Bug Fix

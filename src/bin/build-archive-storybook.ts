@@ -5,4 +5,4 @@ import { resolve, dirname } from 'path';
 
 const configDir = 'node_modules/@chromaui/archive-storybook/config';
 const binPath = resolve(dirname(require.resolve('@storybook/cli/package.json')), './bin/index.js');
-execSync(`npx ${binPath} build -c ${configDir}`, { stdio: 'inherit' });
+execSync(`node ${binPath} build -c ${configDir}`, { stdio: 'inherit' });

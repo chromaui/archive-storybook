@@ -1,3 +1,15 @@
+# v0.0.8 (Mon Jul 24 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Update build-archive-storybook.ts ([@tmeasday](https://github.com/tmeasday))
+
+#### Authors: 1
+
+- Tom Coleman ([@tmeasday](https://github.com/tmeasday))
+
+---
+
 # v0.0.7 (Sun Jul 23 2023)
 
 #### 🐛 Bug Fix

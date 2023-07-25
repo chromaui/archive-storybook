@@ -1,3 +1,15 @@
+# v0.0.9 (Tue Jul 25 2023)
+
+#### 🐛 Bug Fix
+
+- Use peer dependencies to allow using a range of SB versions [#3](https://github.com/chromaui/archive-storybook/pull/3) ([@tmeasday](https://github.com/tmeasday))
+
+#### Authors: 1
+
+- Tom Coleman ([@tmeasday](https://github.com/tmeasday))
+
+---
+
 # v0.0.8 (Mon Jul 24 2023)
 
 #### ⚠️ Pushed to `main`

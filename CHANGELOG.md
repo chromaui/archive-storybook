@@ -1,3 +1,15 @@
+# v0.0.10 (Tue Sep 05 2023)
+
+#### 🐛 Bug Fix
+
+- Allow for spaces and other special characters in file path to Storybook scripts [#4](https://github.com/chromaui/archive-storybook/pull/4) ([@tevanoff](https://github.com/tevanoff))
+
+#### Authors: 1
+
+- Todd Evanoff ([@tevanoff](https://github.com/tevanoff))
+
+---
+
 # v0.0.9 (Tue Jul 25 2023)
 
 #### 🐛 Bug Fix

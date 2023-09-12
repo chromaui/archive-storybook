@@ -4,7 +4,7 @@
   "description": "A Storybook for rendering webpage archives",
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/@chromaui/archive-storybook"
+    "url": "https://github.com/chromaui/archive-storybook.git"
   },
   "author": "Chromatic <tom@chromatic.com>",
   "license": "MIT",

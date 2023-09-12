@@ -1,3 +1,15 @@
+# v0.0.12 (Tue Sep 12 2023)
+
+#### 🐛 Bug Fix
+
+- Archives are created at subfolder of playwright's results folder [#6](https://github.com/chromaui/archive-storybook/pull/6) ([@skitterm](https://github.com/skitterm))
+
+#### Authors: 1
+
+- Steven Kitterman ([@skitterm](https://github.com/skitterm))
+
+---
+
 # v0.0.11 (Tue Sep 05 2023)
 
 #### 🐛 Bug Fix

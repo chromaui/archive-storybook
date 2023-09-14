@@ -1,3 +1,15 @@
+# v0.0.14 (Thu Sep 14 2023)
+
+#### 🐛 Bug Fix
+
+- Fix exec to work on Windows [#8](https://github.com/chromaui/archive-storybook/pull/8) ([@tevanoff](https://github.com/tevanoff))
+
+#### Authors: 1
+
+- Todd Evanoff ([@tevanoff](https://github.com/tevanoff))
+
+---
+
 # v0.0.13 (Tue Sep 12 2023)
 
 #### 🐛 Bug Fix

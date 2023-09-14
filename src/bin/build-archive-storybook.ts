@@ -8,4 +8,4 @@ const args = process.argv.slice(2);
 
 const configDir = 'node_modules/@chromaui/archive-storybook/config';
 const binPath = resolve(dirname(require.resolve('@storybook/cli/package.json')), './bin/index.js');
-execFileSync(binPath, ['build', ...args, '-c', configDir], { stdio: 'inherit' });
+execFileSync('node', [binPath, 'build', ...args, '-c', configDir], { stdio: 'inherit' });

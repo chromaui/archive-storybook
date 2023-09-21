@@ -2,6 +2,7 @@ import { defineConfig } from 'tsup';
 
 export default defineConfig((options) => ({
   entry: [
+    'src/filePaths.ts',
     'src/preset.ts',
     'src/preview.ts',
     'src/bin/archive-storybook.ts',

@@ -1,3 +1,15 @@
+# v0.0.15 (Tue Oct 10 2023)
+
+#### 🐛 Bug Fix
+
+- Raise error when archives dir cannot be found [#9](https://github.com/chromaui/archive-storybook/pull/9) ([@tevanoff](https://github.com/tevanoff))
+
+#### Authors: 1
+
+- Todd Evanoff ([@tevanoff](https://github.com/tevanoff))
+
+---
+
 # v0.0.14 (Thu Sep 14 2023)
 
 #### 🐛 Bug Fix

@@ -2,6 +2,9 @@
 
 import { execFileSync } from 'child_process';
 import { resolve, dirname } from 'path';
+import { checkArchivesDirExists } from '../filePaths';
+
+checkArchivesDirExists();
 
 // Discard first two entries (exec path and file path)
 const args = process.argv.slice(2);

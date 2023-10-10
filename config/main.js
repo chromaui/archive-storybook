@@ -1,15 +1,14 @@
-const { CHROMATIC_ARCHIVE_LOCATION = 'test-results' } = process.env;
-
-const ARCHIVES_DIR = `../../../../${CHROMATIC_ARCHIVE_LOCATION}/chromatic-archives`;
+const path = require('path');
+const { archivesDir } = require('../dist/filePaths');
 
 /** @type { import('@storybook/server-webpack5').StorybookConfig } */
 const config = {
-  stories: [`${ARCHIVES_DIR}/*.stories.json`],
+  stories: [path.resolve(archivesDir(), '*.stories.json')],
   addons: ['@storybook/addon-essentials', '../dist'],
   framework: {
     name: '@storybook/server-webpack5',
     options: {},
   },
-  staticDirs: [`${ARCHIVES_DIR}/archive`],
+  staticDirs: [path.resolve(archivesDir(), 'archive')],
 };
 module.exports = config;

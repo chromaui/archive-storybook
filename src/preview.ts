@@ -1,5 +1,5 @@
 import type { RenderToCanvas, WebRenderer } from '@storybook/types';
-import { rebuild } from '@chromaui/rrweb-snapshot';
+import { rebuild } from 'rrweb-snapshot';
 // eslint-disable-next-line no-restricted-imports
 import debounce from 'lodash.debounce';
 

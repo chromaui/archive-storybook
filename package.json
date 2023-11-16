@@ -54,9 +54,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@chromaui/rrweb-snapshot": "2.0.0-alpha.7-noAbsolute.2",
     "@storybook/csf": "^0.1.0",
-    "lodash.debounce": "^4.0.8"
+    "lodash.debounce": "^4.0.8",
+    "rrweb-snapshot": "^2.0.0-alpha.4"
   },
   "peerDependencies": {
     "@storybook/addon-essentials": ">= 7.0.0",

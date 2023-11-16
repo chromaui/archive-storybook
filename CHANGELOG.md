@@ -1,3 +1,15 @@
+# v0.0.16 (Thu Nov 16 2023)
+
+#### 🐛 Bug Fix
+
+- Use non-forked rrweb [#11](https://github.com/chromaui/archive-storybook/pull/11) ([@tevanoff](https://github.com/tevanoff))
+
+#### Authors: 1
+
+- Todd Evanoff ([@tevanoff](https://github.com/tevanoff))
+
+---
+
 # v0.0.15 (Tue Oct 10 2023)
 
 #### 🐛 Bug Fix

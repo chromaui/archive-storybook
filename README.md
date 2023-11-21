@@ -4,7 +4,7 @@ A Storybook for rendering webpage archives
 
 ## Getting Started
 
-See [the documentation for `@chromaui/test-archiver`](https://github.com/chromaui/test-archiver/blob/main/Documentation.md)
+See the [documentation](https://www.chromatic.com/docs/e2e-visual-tests/).
 
 ## Contributing
 

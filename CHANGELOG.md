@@ -1,3 +1,15 @@
+# v0.0.17 (Wed Nov 22 2023)
+
+#### 🐛 Bug Fix
+
+- Docs URL changed [#12](https://github.com/chromaui/archive-storybook/pull/12) ([@skitterm](https://github.com/skitterm))
+
+#### Authors: 1
+
+- Steven Kitterman ([@skitterm](https://github.com/skitterm))
+
+---
+
 # v0.0.16 (Thu Nov 16 2023)
 
 #### 🐛 Bug Fix

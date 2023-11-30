@@ -23,6 +23,7 @@ function updateDimensions(iframe: HTMLIFrameElement) {
     'style',
     `${iframeStyle}; width: ${scrollWidth}px; height: ${scrollHeight}px;`
   );
+  iframe.setAttribute('id', 'chromatic-e2e-inner-iframe');
 }
 
 const renderToCanvas: RenderToCanvas<RRWebFramework> = async (context, element) => {

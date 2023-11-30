@@ -1,3 +1,15 @@
+# v0.0.18 (Thu Nov 30 2023)
+
+#### 🐛 Bug Fix
+
+- :lipstick: Add an id to the inner iframe element used for E2E tests. [#13](https://github.com/chromaui/archive-storybook/pull/13) ([@jwir3](https://github.com/jwir3))
+
+#### Authors: 1
+
+- Scott Johnson ([@jwir3](https://github.com/jwir3))
+
+---
+
 # v0.0.17 (Wed Nov 22 2023)
 
 #### 🐛 Bug Fix

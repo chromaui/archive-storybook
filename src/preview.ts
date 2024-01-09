@@ -26,12 +26,20 @@ function updateDimensions(iframe: HTMLIFrameElement) {
   iframe.setAttribute('id', 'chromatic-e2e-inner-iframe');
 }
 
+const globals = { viewport: 'reset', viewportRotated: false };
 const renderToCanvas: RenderToCanvas<RRWebFramework> = async (context, element) => {
   const { url, id } = context.storyContext.parameters.server;
+  console.log('renderToCanvas info', url, id, context, context.storyContext.globals.viewport);
+
+  // assuming id is set to the $testname-$snapshotname combo
+  // const fetchUrl = `${id}.${viewportString}.snapshot.json`;
+  // TODO need to get that viewport from context.storyContext.globals.viewport
+  // TODO will also need to handle a given viewport not found, fallback to a default snapshot
   const response = await fetch(`${url}/${id}`);
   const snapshot = await response.json();
 
   const iframe = document.createElement('iframe');
+
   iframe.setAttribute('style', iframeStyle);
   element.appendChild(iframe);
 
@@ -53,4 +61,4 @@ const renderToCanvas: RenderToCanvas<RRWebFramework> = async (context, element) 
   };
 };
 
-export { renderToCanvas };
+export { renderToCanvas, globals };

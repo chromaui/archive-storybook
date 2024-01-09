@@ -3,7 +3,7 @@ const { archivesDir } = require('../dist/filePaths');
 
 /** @type { import('@storybook/server-webpack5').StorybookConfig } */
 const config = {
-  stories: [path.resolve(archivesDir(), '*.stories.json')],
+  stories: [path.resolve(archivesDir(), '*.stories2.json')],
   addons: ['@storybook/addon-essentials', '../dist'],
   framework: {
     name: '@storybook/server-webpack5',

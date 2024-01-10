@@ -60,8 +60,8 @@
   },
   "peerDependencies": {
     "@storybook/addon-essentials": ">= 7.0.0",
-    "@storybook/cli": ">= 7.0.0",
-    "@storybook/server-webpack5": ">= 7.0.0"
+    "@storybook/server-webpack5": ">= 7.0.0",
+    "storybook": ">= 7.0.0"
   },
   "devDependencies": {
     "@auto-it/released": "^10.32.6",
@@ -70,7 +70,6 @@
     "@babel/preset-typescript": "^7.21.4",
     "@jest/types": "^27.0.6",
     "@storybook/addon-essentials": "^7.0.2",
-    "@storybook/cli": "^7.0.2",
     "@storybook/eslint-config-storybook": "^3.1.2",
     "@storybook/server-webpack5": "^7.0.2",
     "@storybook/types": "^7.0.2",
@@ -93,6 +92,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "rimraf": "^3.0.2",
+    "storybook": "^7.0.2",
     "ts-dedent": "^2.2.0",
     "ts-jest": "^27.0.4",
     "tsup": "^6.7.0",

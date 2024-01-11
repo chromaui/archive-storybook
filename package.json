@@ -59,7 +59,6 @@
     "rrweb-snapshot": "^2.0.0-alpha.4"
   },
   "peerDependencies": {
-    "@storybook/addon-essentials": ">= 7.0.0",
     "@storybook/server-webpack5": ">= 7.0.0",
     "storybook": ">= 7.0.0"
   },

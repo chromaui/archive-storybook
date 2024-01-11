@@ -60,7 +60,7 @@
   },
   "peerDependencies": {
     "@storybook/server-webpack5": "^7 || ^8",
-    "storybook": "^7 || ^8"
+    "storybook": "^7.0.0 || ^8.0.0"
   },
   "devDependencies": {
     "@auto-it/released": "^10.32.6",

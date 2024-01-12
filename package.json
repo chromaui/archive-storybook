@@ -59,7 +59,7 @@
     "rrweb-snapshot": "^2.0.0-alpha.4"
   },
   "peerDependencies": {
-    "@storybook/server-webpack5": "^7 || ^8",
+    "@storybook/server-webpack5": "^7.0.0 || ^8.0.0",
     "storybook": "^7.0.0 || ^8.0.0"
   },
   "devDependencies": {

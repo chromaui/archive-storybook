@@ -10,5 +10,5 @@ checkArchivesDirExists();
 const args = process.argv.slice(2);
 
 const configDir = 'node_modules/@chromaui/archive-storybook/config';
-const binPath = resolve(dirname(require.resolve('@storybook/cli/package.json')), './bin/index.js');
+const binPath = resolve(dirname(require.resolve('storybook/package.json')), './index.js');
 execFileSync('node', [binPath, 'build', ...args, '-c', configDir], { stdio: 'inherit' });
